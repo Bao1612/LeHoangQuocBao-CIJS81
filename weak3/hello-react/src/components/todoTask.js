@@ -1,4 +1,4 @@
-function todoTasks() {
+function TodoTasks() {
     return (
         <div>
             <h2>Enter your task here</h2>
@@ -6,4 +6,4 @@ function todoTasks() {
     )
 }
 
-export default todoTasks;
+export default TodoTasks;
