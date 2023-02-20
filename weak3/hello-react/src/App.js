@@ -1,9 +1,9 @@
-import todoTasks from "./components/todoTask";
+import TodoTasks from "./components/TodoTask.js";
 
 function App() {
   return (
     <div>
-        <todoTasks/>
+        <TodoTasks/>
     </div>
   );
 }
