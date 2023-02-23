@@ -1,0 +1,14 @@
+#footer-main {
+    width: 100%;
+    display: flex;
+}
+
+#footer-main p {
+    opacity: 0.4;
+}
+
+.tasks-quantity {
+    display: inline-flex;
+    align-items: space-between;
+    margin-right: 50px;
+}

@@ -1,9 +1,16 @@
-import TodoTasks from "./components/TodoTask.js";
+import ListTask from "./components/ListTask.js";
+import EnterTasks from "./components/EnterTask.js";
+import "./App.css"
+import Footer from "./components/Footer.js";
 
-function App() {
+function App(children) {
   return (
-    <div>
-        <TodoTasks/>
+    <div class = "App">
+      <div class = "main">
+      <EnterTasks></EnterTasks>
+      <ListTask></ListTask>
+      <Footer/>
+      </div>
     </div>
   );
 }
