@@ -1,0 +1,81 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: #ccc;
+  font-size: 20px;
+  line-height: 10px;
+}
+
+.haeder .logo {
+  margin-left: 20px;
+}
+
+.header .login-btn {
+  margin-right: 20px;
+}
+
+.login-form {
+  border: 1px solid #000;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 35vw;
+  height: 30vh;
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+}
+
+.form-control {
+  width: 80%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.gicungdc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+}
+
+.login-control {
+  width: 20%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 100vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.languageSelect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: #ccc;
+}

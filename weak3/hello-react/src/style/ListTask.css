@@ -1,0 +1,8 @@
+#task-main {
+    margin-top: 20px;
+    width: 100%;    
+}
+
+#task-main .task-items {
+    text-align: justify;
+}

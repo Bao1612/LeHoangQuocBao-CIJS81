@@ -1,0 +1,10 @@
+#main {
+    width: 260px;
+    border-bottom: 1px solid #ccc;
+}
+
+.inputTask {
+    font-size: 21px;
+    color: #ccc;
+    border: none;
+}
