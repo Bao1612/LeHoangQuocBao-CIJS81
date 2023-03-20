@@ -84,7 +84,7 @@
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    margin-top: 300px;
+    margin-top: 20vh;
     margin-left: 322px;
     margin-right: 322px;
 }
@@ -116,7 +116,34 @@
 }
 
 .banner-content button:hover {
-    background-color: linear-gradient(135deg,#23bdb8,#43e794);  
+    background: linear-gradient(135deg,#23bdb8,#43e794);  
     
+}
+
+.container-card .list-card {
+    display: flex;
+    font-size: 12px;
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+.container-card .list-card .card-item {
+    width: calc(100%/4);
+    margin-top: -70px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.container-card .list-card .card-item h3 {
+    font-size: 20px;
+    width: 234px;
+    height: 24px;
+}
+
+.container-card .list-card .card-item p {
+    font-size: 15px;
+    width: 234px;
+    height: 67px;
 }
 
