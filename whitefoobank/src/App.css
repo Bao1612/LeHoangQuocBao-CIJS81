@@ -1,0 +1,122 @@
+#container {
+    height: 150vh;
+    position: relative;
+}
+
+.header-banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url("./imgs/header-banner.jpg");
+}
+
+.nav-area {
+    z-index: 1;
+    width: 100%;
+    height: 40px;
+    padding: 20px 0;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.nav-area .logo {
+    display: flex;
+}
+
+.icon-header {
+    height: 25px;
+    width: 26.88px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(./icons/whitefoologohead.png);
+}
+
+.logo-header {
+    height: 25px;
+    width: 112.5px;
+    margin-left: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url('./logo/whitefoologocap.png');
+}
+
+.header-nav {
+    width: 500px;
+}
+
+.header-nav ul {
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.header-nav ul > li:hover {
+    color: #ee0979;
+    transition: 0.6s;
+}
+
+.header-banner ul li:first-child {
+    margin-right: 15px;
+}
+
+.header-banner ul li {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.header-banner ul li:last-child {
+    margin-left: 15px;
+}
+
+.banner-content {
+    /* flex-direction: column; */
+    width: 800px;
+    position: absolute;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 300px;
+    margin-left: 322px;
+    margin-right: 322px;
+}
+
+.banner-content h1 {
+    width: 600px;
+    height: 124px;
+    font-size: 52px;
+    color: #fff;
+}
+
+.banner-content p {
+    margin-top: 20px;
+    width: 400px;
+    height: 54px;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.banner-content button {
+    cursor: pointer;
+    margin-top: 30px;
+    width: 121px;
+    height: 48px;
+    color: #fff;
+    background: linear-gradient(90deg,#ee0979,#ff6a00);
+    border: none;
+    border-radius: 4px;
+}
+
+.banner-content button:hover {
+    background-color: linear-gradient(135deg,#23bdb8,#43e794);  
+    
+}
+
